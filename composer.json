@@ -1,0 +1,27 @@
+{
+    "name": "goni/phpmvc",
+    "description": "a simple light project",
+    "type": "library",
+
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+           
+        },
+        "files": ["app/Base/function.php"]
+    },
+    "authors": [
+        {
+            "name": "abdulgonibu",
+            "email": "abdulgoni.me@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "pecee/simple-router": "dev-master",
+        "vlucas/phpdotenv": "5.4.x-dev"
+
+    }
+}
